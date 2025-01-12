@@ -1,6 +1,6 @@
 <?php
   include ('functionsapi.php');
-   $conn = mysqli_connect('mysql.ct8.pl','m30328_crimson4','Crimson4thegoat','m30328_melvin');
+   $conn = mysqli_connect('dbhosthere','dbusernamehere','dbpasshere','dbnamehere');
   
    $iphash = md5($_SERVER["REMOTE_ADDR"]);
   
